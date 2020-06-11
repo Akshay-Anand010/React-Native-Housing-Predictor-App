@@ -18,7 +18,7 @@ import axios from "axios";
 import t from "tcomb-form-native";
 
 const Form = t.form.Form;
-
+.
 const User = t.struct({
   CRIM: t.String,
   ZIN: t.String,
