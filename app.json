@@ -1,28 +1,26 @@
 {
   "expo": {
-    "name": "DoneWithIt",
+    "name": "Housing Predictor",
     "slug": "DoneWithIt",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/trio1.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/trio.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.trioindia.in"
+    },
+    "description": ""
   }
 }
